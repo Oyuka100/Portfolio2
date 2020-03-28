@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3C4148;
+    margin: 0;
+}
+
+.navBar{
+    background-color: #3C4148;
+    box-shadow: 0 4px 4px -2px rgba(1,1,1,.8);
+}
+
+main{
+    padding: 15rem;
+}
+
+h1,h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.lg-heading{
+    font-size: 4rem;
+}
+.sm-heading{
+    margin-bottom: 2rem;
+    font-size: 32px;
+}
+.last-name{
+    color: #7692B4;
+}
+a{
+    color: white;
+    font-size: 18px;
+}
+
+i{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.my-img{
+   height: auto;
+   max-width: 200%;
+   border-radius: 500px;
+   border: solid 1px black;
+    
+}
+
+p{
+    color: #E6E8E6;
+    font-size: 18px;
+    margin-top: 3rem;
+    line-height: 2em;
+}
+
+.card{
+    width: 18rem;
+    margin-left: 4rem;
+    
+}
