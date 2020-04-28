@@ -1,184 +1,175 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
-
-body{
-    background-color: #0A2239;
-    margin: 0;
-} 
-
-.navBar{
-    background-color: #0A2239;
-    box-shadow: 0 4px 4px -2px rgba(1,1,1,.8);
-    position: sticky;
-    top: 0;
-}   
-
-.hi{
-    color: #01ffc3;
-    word-spacing: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 0.5px;
-    
+html {
+  scroll-behavior: smooth;
 }
 
-h1,h2{
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    line-height: 1.5;
-}
-.lg-heading{
-    font-size: 4rem;
-}
-.sm-heading{
-    margin-bottom: 2rem;
-    font-size: 32px;
-}
-.major{
-    color: #7692B4;
-    font-weight: 200px;
+body {
+  background-color: #0a2239;
+  margin: 0;
 }
 
-a{
-    color: white;
-    font-size: 18px;
+.navBar {
+  background-color: #0a2239;
+  box-shadow: 0 4px 4px -2px rgba(1, 1, 1, 0.8);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
-i{
-    font-size: 2rem;
-    padding: 10px;
+.hi {
+  color: #01ffc3;
+  word-spacing: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 0.5px;
 }
 
-.my-img{
-   
-   max-width: 100%;
-   border-radius: 500px;
-   border: solid 1px black;
-    
+h1,
+h2 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.lg-heading {
+  font-size: 4rem;
+}
+.sm-heading {
+  margin-bottom: 2rem;
+  font-size: 32px;
+}
+.major {
+  color: #7692b4;
+  font-weight: 200px;
 }
 
-
-.hello{
-    color: #7692B4;
-    font-size: 18px;
-    margin-top: 3rem;
-    line-height: 2em;
-    font-weight: 1px;
-}
-.card-div{
-    margin-top: 100px;
+a {
+  color: white;
+  font-size: 18px;
 }
 
-.card-img-top{
-    height: 200px;
+i {
+  font-size: 2rem;
+  padding: 10px;
 }
 
-.card-body{
-    height: 200px;
-    
+.my-img {
+  max-width: 100%;
+  border-radius: 500px;
+  border: solid 1px black;
 }
 
-.card{
-    background-color: #0D2E4C;
-    box-shadow: 0px 5px 5px #0D2E4C;
-    color: white;
+.hello {
+  color: #7692b4;
+  font-size: 18px;
+  margin-top: 3rem;
+  line-height: 2em;
+  font-weight: 1px;
+}
+.card-div {
+  margin-top: 100px;
 }
 
-.btn{
-    background-color: #0D2E4C;
-    border: solid 1px #fff;
-    color: #fff;
-    margin-bottom: 0;
-    margin-top: 30px;
-    
+.card-img-top {
+  height: 200px;
 }
 
-.btn:hover{
-    border: solid 2px #01ffC3;
-    background-color:  #0D2E4C;
-    color:  #01ffC3;
-}   
-
-.card-title{
-    margin-top: 70px;
-    margin-bottom: 10px;
+.card-body {
+  height: 200px;
 }
 
-.contact-method{
-    width: 220px;
-    height: 140px;
-    display: inline-block;
-    background-color: #3498db;
-    margin: 10px;
-    color: #fff;
-    position: relative;
-    cursor: pointer;
-    margin-top: 100px;
+.card {
+  background-color: #0d2e4c;
+  box-shadow: 0px 5px 5px #0d2e4c;
+  color: white;
 }
 
-.contact-method i{
- position: absolute;
- left: 0;
- top:0;
- width: 100%;
- height: 100%;
- font-size: 30px;
- line-height: 140px;
- padding-left: 100px;
- background-color: #0D2E4C;
- z-index: 1;
- transition: transform 0.6s;
-}
-.contact-method span{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
-    padding-left: 45px;
+.btn {
+  background-color: #0d2e4c;
+  border: solid 1px #fff;
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 30px;
 }
 
-.contact-method:hover i{
-    transform: translateY(-40px);
-
-
-}
-
-.footer{
-    background-color: #20364B;
-   height: 200px;
-   color: black;
-  
-}
-h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
-    position: relative;
-    padding-left: 520px;
-    padding-top: 0px;
-    margin-top: 50px;
-    
-
-}
-
-.icon{
-    position: relative;
-    padding-left: 550px;
-    
-}
-
-a:active , a:hover{
-  text-shadow: 0 0 20px #0091A7;
+.btn:hover {
+  border: solid 2px #01ffc3;
+  background-color: #0d2e4c;
   color: #01ffc3;
 }
 
-a{
-    margin-right: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    
+.card-title {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.contact-method {
+  width: 220px;
+  height: 140px;
+  display: inline-block;
+  background-color: #3498db;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.contact-method i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  line-height: 140px;
+  padding-left: 100px;
+  background-color: #0d2e4c;
+  z-index: 1;
+  transition: transform 0.6s;
+}
+.contact-method span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  padding-left: 45px;
+}
+
+.contact-method:hover i {
+  transform: translateY(-40px);
+}
+
+.footer {
+  background-color: #20364b;
+  height: 200px;
+  color: black;
+}
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  position: relative;
+  padding-left: 520px;
+  padding-top: 0px;
+  margin-top: 50px;
+}
+
+.icon {
+  position: relative;
+  padding-left: 550px;
+}
+
+a:active,
+a:hover {
+  text-shadow: 0 0 20px #0091a7;
+  color: #01ffc3;
+}
+
+a {
+  margin-right: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
 }
